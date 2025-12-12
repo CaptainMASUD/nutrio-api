@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Mail, Lock, LogIn, Eye, EyeOff } from "lucide-react";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://nutrio-api.vercel.app/api";
 
 export default function Login() {
   const [form, setForm] = useState({ email: "", password: "" });

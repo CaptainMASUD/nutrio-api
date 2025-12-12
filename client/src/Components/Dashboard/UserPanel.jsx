@@ -14,7 +14,7 @@ import {
   KeyRound,
 } from "lucide-react";
 
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://nutrio-api.vercel.app/api";
 
 const getStored = (key, fallback = null) => {
   try {

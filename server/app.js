@@ -6,7 +6,7 @@ const app = express();
 app.use(
   cors({
     origin: [
-      "https://uni-match-dashboard.vercel.app", 
+      "https://nutrio-admin.vercel.app", 
       "http://localhost:5173" 
     ],
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
