@@ -5,10 +5,7 @@ const app = express();
 
 app.use(
   cors({
-    origin: [
-      "https://nutrio-admin.vercel.app", 
-      "http://localhost:5173" 
-    ],
+    origin: "*",
     methods: ["GET", "POST", "PUT", "DELETE", "PATCH"],
     allowedHeaders: ["Content-Type", "Authorization"],
     credentials: true,
